@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<title>portfolio</title>
+</head>
+
+<body>
+	
+<header>
+		<nav class="desktop">
+			<a href="index.html"><b>HOME</b></a>
+
+		</nav>
+		<img class="bird" src="sova2.gif" alt="bird">
+
+		<nav class="desktop">
+			<a href="portfolio.html"><b>PORTFOLIO</b></a>
+			<a href="profile.html"><b>PROFILE</b></a>
+		</nav>
+	</header>
+	<nav class="topnav" id="myTopnav">
+		<a href="index.html"><b>HOME</b></a>
+		<a href="portfolio.html"><b>PORTFOLIO</b></a>
+		<a href="profile.html"><b>PROFILE</b></a>
+
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+	</nav>
+
+	<main class="main-box">
+
+
+		<section class="container" id="web">
+			
+			
+
+			<picture>
+
+
+				<source media="(min-width: 768px)" srcset="wlong.jpg">
+				<source media="(min-width: 400px)" srcset="w1.jpg">
+				<img class="responsive" src="wlong.jpg" alt=""></picture>
+			<div class="overlay">
+				<div class="text">BASIC WEB</div></div>
+
+		</section>
+
+		<section class="container" id="content">
+			
+
+			<picture>
+
+
+				<source media="(min-width: 768px)" srcset="clong.jpg">
+				<source media="(min-width: 400px)" srcset="c1.jpg">
+				<img class="responsive" src="clong.jpg" alt=""></picture>
+			<div class="overlay">
+				<div class="text">BASIC CONTENT</div></div>
+
+
+
+		</section>
+
+
+		<section class="container" id="animation">
+		
+			<picture>
+
+
+				<source media="(min-width: 768px)" srcset="along.jpg">
+				<source media="(min-width: 400px)" srcset="a1.jpg">
+				<img class="responsive" src="along.jpg" alt=""></picture>
+			<div class="overlay">
+				<div class="text">BASIC ANIMATION</div></div>
+
+		</section>
+		<section class="container" id="ux">
+		
+
+			<picture>
+
+
+				<source media="(min-width: 768px)" srcset="uxlong.jpg">
+				<source media="(min-width: 400px)" srcset="ux1.jpg">
+				<img class="responsive" src="uxlong.jpg" alt=""></picture>
+			<div class="overlay">
+				<div class="text">BASIC UX</div></div>
+
+
+		</section>
+
+	</main>
+	<script>
+		var web;
+		var content;
+		var animation;
+		var ux;
+
+		// The Views 
+		web = document.getElementById('web');
+		content = document.getElementById('content');
+		animation = document.getElementById('animation');
+		ux = document.getElementById('ux');
+
+		// The Links when you click
+		web.addEventListener("click", function() {
+			location.href = 'http://storytellingindesign.de/portfolio/responsive4.html';
+		});
+
+		content.addEventListener("click", function() {
+			location.href = 'http://storytellingindesign.de/portfolio/basicconcept.html';
+		});
+
+		animation.addEventListener("click", function() {
+			location.href = 'http://storytellingindesign.de/portfolio/basianimation.html';
+		});
+
+		ux.addEventListener("click", function() {
+			location.href = 'http://storytellingindesign.de/portfolio/ux.html';
+		});
+	</script>
+
+	<div class="footer">
+
+		<p>&copy;Made by Dasa 2019</p>
+	</div>
+<script src="js/portfolio.js"></script>
+
+</body>
+
+</html>

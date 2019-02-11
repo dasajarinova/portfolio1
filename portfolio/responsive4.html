@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/portfolio2.css">
+	<title>portfolio</title>
+</head>
+
+<body>
+	<header>
+		<nav class="desktop">
+			<a href="index.html"><b>HOME</b></a>
+
+		</nav>
+		<img class="bird" src="sova2.gif" alt="bird">
+
+		<nav class="desktop">
+			<a href="portfolio.html"><b>PORTFOLIO</b></a>
+			<a href="profile.html"><b>PROFILE</b></a>
+		</nav>
+	</header>
+	<nav class="topnav" id="myTopnav">
+		<a href="index.html"><b>HOME</b></a>
+		<a href="portfolio.html"><b>PORTFOLIO</b></a>
+		<a href="profile.html"><b>PROFILE</b></a>
+
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+	</nav>
+	<main>
+
+
+		<div class="container">
+			<div class="leading-text">
+				<h1>Basic Web</h1><br>
+				<img id="line" src="line1.png" alt="line">
+				<p class="leading-text">In this theme i have learnt how to structure content using basic semantic markup (HTML 5) and presenting content using CSS3 in order to create a simple website, how to use FTP to upload on the website and how to validate my codes. </p>
+				<p>I also gained knowledge how to use Adobe Photoshop, Adobe Illustrator, Adobe InDesign and Adobe XD.</p>
+			</div>
+
+
+		</div>
+
+		<br>
+
+		<h2>Responsive website</h2>
+		<img id="line" src="line1.png" alt="line">
+
+		<div class="box">
+
+
+			<picture>
+
+
+				<source media="(min-width: 768px)" srcset="opica2medium.png">
+				<source media="(min-width: 400px)" srcset="opica2small.png">
+				<img class="responsive" src="opica2medium.png" alt="responsive"></picture>
+
+			<div class="content">
+				<p>The main goal of this project was creating a responsive website (website which is responsive to different screen sizes of devices) using a grid system (layout system with rows and columns ). Everyone had to create their own website based on their XD prototype and the design of the site should be based on the given style -Mine style was deconstruction.</p>
+				<p> The most difficult part for me was coding and creating the grid, i spent a lot of time watching youtube tutorials and looking for some online examples. Apart from grid layout we also learnt about media query and we had to implement at least two break points with media query in CSS file. </p>
+				<p>During creating a website I tried to use some design principles such as law of proximity,similarity connection or contrast. For logo design i used Gestald principle-similarity. This was my first responsive website ever so i am not fully satisfied with it, but i learnt a lot. </p><br>
+
+				<button class="butt" onclick="btn1()" type="submit" >WEBSITE</button>
+			<script>
+			function btn1() {
+						window.location = "http://storytellingindesign.de/responsive/responsive1/index.html";
+				
+
+					}
+				</script>
+
+
+			</div>
+		</div>
+
+	</main>
+	<div class="footer">
+
+
+
+		<p>&copy;Made by Dasa 2019</p>
+	</div>
+<script src="js/portfolio.js"></script>
+</body>
+
+</html>
